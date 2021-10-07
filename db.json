@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": 5,
+      "name": "Angular5qw",
+      "phone": 123345,
+      "email": "kieu@gmail.com",
+      "address": "xom A1- Thôn B",
+      "countryId": "2",
+      "statesId": "3",
+      "citesId": "4"
+    },
+    {
+      "name": "Nông Văn",
+      "phone": 3223,
+      "email": "ht@fpt.com.vn",
+      "address": "163 chiến thắng -Hà Nội",
+      "countryId": "1",
+      "statesId": "1",
+      "citesId": "2",
+      "id": 6
+    },
+    {
+      "name": "Người dùng",
+      "phone": 914003312,
+      "email": "kt@fpt.com.vn",
+      "address": "Hà Đông - Hà Nội",
+      "countryId": "2",
+      "statesId": "3",
+      "citesId": "5",
+      "id": 7
+    },
+    {
+      "name": "Messi",
+      "phone": 92131232,
+      "email": "messi@fpt.com.vn",
+      "address": "Pari-pháp",
+      "countryId": "1",
+      "statesId": "1",
+      "citesId": "1",
+      "id": 8
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "nameCountry": "Ha Noi"
+    },
+    {
+      "id": 2,
+      "nameCountry": "Nam Dinh"
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "nameStates": "Nam Tu liem",
+      "countyId": 1
+    },
+    {
+      "id": 2,
+      "nameStates": "Bac Tu Liem",
+      "countyId": 1
+    },
+    {
+      "id": 3,
+      "nameStates": "Xuân Trường",
+      "countyId": 2
+    },
+    {
+      "id": 4,
+      "nameStates": "Y yen",
+      "countyId": 2
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "nameCities": "My dinh 2",
+      "statesId": 1
+    },
+    {
+      "id": 2,
+      "nameCities": "My dinh 1",
+      "statesId": 1
+    },
+    {
+      "id": 3,
+      "nameCities": "Thượng Đình",
+      "statesId": 2
+    },
+    {
+      "id": 4,
+      "nameCities": "Văn Quán",
+      "statesId": 2
+    },
+    {
+      "id": 5,
+      "nameCities": "Xã 1",
+      "statesId": 3
+    },
+    {
+      "id": 6,
+      "nameCities": "Xã 2",
+      "statesId": 3
+    },
+    {
+      "id": 7,
+      "nameCities": "Xã 3",
+      "statesId": 3
+    },
+    {
+      "id": 8,
+      "nameCities": "Xã 21",
+      "statesId": 4
+    },
+    {
+      "id": 9,
+      "nameCities": "Xã 22",
+      "statesId": 4
+    }
+  ]
+}

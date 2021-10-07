@@ -1,0 +1,108 @@
+<div class="total">
+    <!-- <div id="p1">
+        <div class="img-header">
+            <img src="assets/img/download.png" alt="">
+        </div>
+
+        <div class="text-header">
+            Hệ thống chấp nhận khác hàng lớn VNPOST
+        </div>
+
+
+        <div class="login-header">Đăng nhập</div>
+    </div> -->
+    <div class="form-login">
+        <div class="logo">
+            <div class="logo-vnpost">
+                <img src="assets/img/anh2.jpg" alt="">
+            </div>
+            <div class="logo-fpt">
+                <img src="assets/img/anh3.jpg" alt="">
+            </div>
+        </div>
+        <div class="ruler">
+
+        </div>
+        <div class="forms">
+            <!-- <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+                <div *ngIf="error==1">
+
+                    <label for="uname" style="color: red; margin-left: 20px;"><b>{{messeage}}</b> <i *ngIf="error ==1" (click) ="reset()" class="far fa-times-circle" style="margin-left: 20px;"></i></label>
+
+                </div>
+                <div class="container">
+                    <div class="col-md-4">
+                        <label for="uname"><b>Tên đăng nhập</b></label>
+                        <input type="text" placeholder="Enter Username" formControlName="userName" required>
+                        <div *ngIf="f.userName.invalid && (f.userName.dirty || f.userName.touched)" style="color: red;">
+                            <div *ngIf="f.userName.errors" class="invalid-feedback">
+                                <div *ngIf="f.userName.errors.required">Bạn cần nhập tên</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-4">
+                        <label for="psw"><b>Mật khẩu</b></label>
+                        <input type="password" placeholder="Enter Password" formControlName="password" required>
+                        <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched)" style="color: red;">
+                            <div *ngIf="f.password.errors" class="invalid-feedback">
+                                <div *ngIf="f.password.errors.required">Bạn cần nhập mật khẩu</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit">Đăng nhập</button>
+                    </div>
+                </div>
+
+
+            </form> -->
+
+            <div class="form">
+
+                <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                    <div *ngIf="error==1">
+
+                        <label for="uname" style="color: red; margin-left: 20px;"><b>{{messeage}}</b> <i *ngIf="error ==1" (click) ="reset()" class="far fa-times-circle" style="margin-left: 20px;"></i></label>
+
+                    </div>
+
+                    <div>
+
+                        <div>
+                            <label for="uname"><b class="label">Tên đăng nhập</b></label>
+                            <input class="inputForm" type="text" placeholder="Nhập tên đăng nhập" formControlName="userName" required>
+                            <div *ngIf="f.userName.invalid && (f.userName.dirty || f.userName.touched)" style="color: red;">
+                                <div *ngIf="f.userName.errors" class="invalid-feedback">
+                                    <div *ngIf="f.userName.errors.required" style="margin-left: 22px;">Bạn cần nhập tên</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="psw"><b class="label">Mật khẩu</b></label>
+                            <input class="inputForm" type="password" placeholder="Nhập mật khẩu" formControlName="password" required>
+                            <div *ngIf="f.password.invalid && (f.password.dirty || f.password.touched)" style="color: red;">
+                                <div *ngIf="f.password.errors" class="invalid-feedback">
+                                    <div *ngIf="f.password.errors.required" style="margin-left: 22px;">Bạn cần nhập mật khẩu</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="buttons" type="submit" [disabled]="registerForm.invalid">Đăng nhập</button>
+
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>

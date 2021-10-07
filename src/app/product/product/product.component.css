@@ -1,0 +1,142 @@
+.main {
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right: 4px;
+    position: relative;
+}
+
+.content {
+    float: left;
+    /*Nằm bên trái*/
+    width: 350px;
+    margin-left: 5px;
+    margin-top: 5px;
+    /*Rộng 700px*/
+    /*Cao 300px*/
+    /*Nền màu đỏ*/
+    border-radius: 2px;
+    line-height: 40px;
+    border: 1px solid blue;
+    padding: 8px 10px;
+    background: rgb(82, 74, 74);
+    position: absolute;
+}
+
+.content label {
+    color: white;
+    font-size: 22px;
+    font-weight: 500px;
+    display: block;
+    cursor: pointer;
+}
+
+.button span {
+    float: left;
+    line-height: 25px;
+    padding: 0;
+    margin-top: 12px;
+}
+
+.button {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.sidebar {
+    margin-right: 8px;
+    margin-top: 5px;
+    width: 940px;
+    /*Rộng 300px*/
+    float: right;
+    /*Nằm bên phải*/
+    height: 400px;
+    /*Cao 100px*/
+    /* Nền màu hồng
+    border-radius: 2px;
+    border: 2px solid yellow; */
+}
+
+div ul {
+    position: absolute;
+    background: rgb(82, 74, 74);
+    list-style: none;
+    top: 70px;
+    width: 350px;
+    left: 0;
+    padding: 0;
+    display: block;
+    border-radius: 2px;
+}
+
+[id^=btn]:checked+ul {
+    display: block;
+}
+
+div ul li {
+    text-align: left;
+    padding: 8px 0px;
+    cursor: pointer;
+    margin-top: 3px;
+    border-bottom: 1px solid rgba(245, 240, 240, 0.2);
+}
+
+div ul li label {
+    font-size: 18px;
+}
+
+div ul li :hover {
+    color: red;
+}
+
+div ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+div ul li :hover {
+    color: rgb(240, 233, 233);
+}
+
+.hovewe:hover {
+    color: red;
+}
+
+.dm {
+    margin-left: 20px;
+    border: 1px solid rgba(245, 240, 240, 0.2);
+}
+
+div ul ul {
+    position: static;
+    display: none;
+}
+
+div ul ul li {
+    line-height: 30px;
+    padding-left: 0px;
+    box-shadow: none;
+}
+
+div ul ul li a {
+    color: #e6e6e6;
+    font-size: 17px;
+}
+
+div ul li span {
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(243, 234, 234);
+}
+
+input {
+    display: none;
+}
+
+.menucon {
+    margin: 0;
+    padding: 0;
+}
